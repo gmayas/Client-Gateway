@@ -1,11 +1,11 @@
 
-# Products-MS
+# Client-Gateway
 
-Este proyecto fue creado con NestJS versión 11.0.14, al momento de descargar este proyecto, instale las dependencias con npm install, para ejecutar npm run start:dev, la aplicación corre en: http://localhost:3001. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
+Este proyecto fue creado con NestJS versión 11.0.14, al momento de descargar este proyecto, instale las dependencias con npm install, para ejecutar npm run start:dev, la aplicación corre en: http://localhost:3000. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-## Products-MS
+## Client-Gateway
 
-Products-MS fue creado como proyecto de práctica para ir adquiriendo las habilidades y conocimientos necesarios en la creación de APIs Rest utilizando NestJS como una herramienta más para el Desarrollo de software BackEnd, como así también Prisma como ORM y SQLite como Base de datos.
+Client-Gateway fue creado como proyecto de práctica para ir adquiriendo las habilidades y conocimientos necesarios en la creación de APIs Rest utilizando NestJS como una herramienta más para el Desarrollo de software BackEnd, y a su vez como puerta de enlace a microservicios utilizando TCP como medio de comunicación.
 
 ![](/imagenes/01.png)
 
@@ -39,9 +39,14 @@ Para poder eliminar un producto por su ID, solo realice un DELETE como se muestr
 
 ![](/imagenes/06.png)
 
-Si deseas tener algunas referencias sobre Prisma en Nest y SQLite, da click en las siguientes URLs:
 
-https://docs.nestjs.com/recipes/prisma
-https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/sqlite
+Si desea ver el código del Microservicio al cual se comunica, de click en la siguiente URL:
+
+https://github.com/gmayas/MS-NestJS
+
+
+Si deseas tener alguna referencia sobre Microservicio en NestJS, de click en la siguiente URLs:
+
+https://docs.nestjs.com/microservices/basics
 
 `© 2026 Copyright: GMayaS C:\>_Desarrollo en Sistemas.`
